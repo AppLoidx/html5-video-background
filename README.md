@@ -1,9 +1,9 @@
 # html5-video-background
 
-### Видео
+### Video
 
 https://www.youtube.com/watch?v=MWKi7mVMbfQ
 
-### Сам сайт
+### Web site example:
 
 https://apploidx.github.io/html5-video-background/
