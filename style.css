@@ -89,6 +89,13 @@ body {
   .nav-masthead {
     float: right;
   }
+
+}
+
+@media (max-width: 700px){
+    .cover-heading{
+        color: black;
+    }
 }
 
 
