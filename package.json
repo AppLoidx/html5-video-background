@@ -1,0 +1,23 @@
+{
+  "name": "html5-video-background",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppLoidx/html5-video-background.git"
+  },
+  "keywords": [
+    "html5",
+    "react"
+  ],
+  "author": "Arthur Kupriyanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AppLoidx/html5-video-background/issues"
+  },
+  "homepage": "https://github.com/AppLoidx/html5-video-background#readme"
+}

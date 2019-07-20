@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video Background Example</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+       <!--    Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    
+    <style>
+        
+    </style>
+</head>
+<body>
+    <iframe src="assets/music/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+    <audio id="player" autoplay loop>
+            <source src="assets/music/hefna-loop.mp3" type="audio/mp3">
+    </audio>
+    <div class="fullscreen-bg-video">
+            <video poster="assets/video/poster.jpg" loop autoplay muted>
+                <!-- <source type="video/webm" src="assets/video/Danheim - Hefna.mp4">
+                <source type="video/ogg" src="media/videoframe.ogg"> -->
+                <source type="video/mp4" src="assets/video/Danheim - Hefna.mp4">
+            </video>
+    </div>
+
+    <div class="cover-container d-flex w-100 h-100 flex-column">
+            <header class="masthead ">
+              <div class="inner">
+                <h3 class="masthead-brand">
+                    <a href="https://www.youtube.com/channel/UCLTQVYwu-M-MnfOJDKlFnOQ">
+                        <img src="https://pp.userapi.com/c836229/v836229736/622ec/bGoqOHYYRRI.jpg" alt="">
+                    </a>
+                </h3>
+                <nav class="nav nav-masthead justify-content-center">
+                  <a class="nav-link active" href="#">Home</a>
+                  <a class="nav-link" href="https://www.youtube.com/channel/UCLTQVYwu-M-MnfOJDKlFnOQ">Youtube</a>
+                  <a class="nav-link" href="#">
+                      <i class="fa fa-github fa-3" style="font-size: 35px"></i>
+                    </a>
+                </nav>
+              </div>
+            </header>
+          
+            <main role="main" class="inner cover justify-content-center mx-auto w-50 mt-auto">
+              <h1 class="cover-heading">Danheim - Hefna</h1>
+              <p class="lead">This is example page with video background using html css and bootstrap</p>
+              <p class="lead">
+                <a href="#" class="btn btn-lg btn-secondary">Play full audio</a>
+              </p>
+            </main>
+          
+            <footer class="mastfoot mx-auto mt-auto">
+              <div class="inner">
+                <p>Example by Arthur Kupriyanov</p>
+              </div>
+            </footer>
+          </div>
+    
+</body>
+</html>
